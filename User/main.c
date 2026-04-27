@@ -4,6 +4,8 @@
 
 uint16_t i=0;
 uint8_t j=0;
+
+uint8_t k=0;
 int main(void)
 {
 	GPIO_InitTypeDef GPIO_Initstructure;
