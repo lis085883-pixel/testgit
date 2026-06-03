@@ -1,0 +1,18 @@
+# F4silunPID 子项目 - 仅保留源码与编译必需文件
+# 父级 .gitignore 已处理通用忽略规则
+
+# 编译产物
+/build/
+
+# IDE 配置
+.eide/
+.vscode/
+.settings
+
+# CMSIS Pack
+.cmsis/
+.pack/
+
+# EIDE 模板
+*.ept
+*.eide-template

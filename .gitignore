@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Prerequisites
 *.d
 
@@ -53,3 +54,73 @@ dkms.conf
 
 # debug information files
 *.dwo
+=======
+# ============================================
+# STM32F4 Keil MDK 项目 .gitignore
+# 只保留 .c .h .s .uvprojx .uvoptx 等编译必需文件
+# ============================================
+
+# --- 编译中间产物 ---
+OBJ/
+*.o
+*.d
+*.crf
+*.lst
+*.axf
+*.hex
+*.elf
+*.map
+*.lnp
+*.plg
+*.tra
+*.sct
+*.dep
+*.iex
+*.htm
+
+# --- 编译输出目录 ---
+/build/
+/bin/
+/out/
+
+# --- IDE 用户个人设置 ---
+.vscode/
+.eide/
+.settings
+*.code-workspace
+.clang-format
+*.uvguix.*
+*.scvd
+
+# --- CMSIS Pack & 设备包 (下载的 SDK 包，非项目源码) ---
+.cmsis/
+.pack/
+
+# --- EIDE 模板 ---
+*.ept
+*.eide-template
+
+# --- 调试器文件 ---
+JLinkLog.txt
+JLinkSettings.ini
+
+# --- 工程清理脚本 ---
+keilkilll.bat
+
+# --- 说明文档 ---
+readme.txt
+README/
+
+# --- 备份和临时文件 ---
+*.bak
+*.tmp
+*.orig
+*~
+*.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Python ---
+__pycache__/
+*.pyc
+>>>>>>> bdf2325 (STM32F4 PID project: core firmware and system libraries)
