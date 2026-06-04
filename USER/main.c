@@ -15,7 +15,7 @@ float SpeedA ,ErrorA,outA,A;
 float SpeedB ,ErrorB,outB,B;
 float SpeedC ,ErrorC,outC,C;
 float SpeedD ,ErrorD,outD,D;
-
+/*测试git的规则提交*/
 int16_t Num1,Num2,Num3,Num4;
 uint16_t n,motor_run,motor_unlock;
 
